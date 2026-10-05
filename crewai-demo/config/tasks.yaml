@@ -1,0 +1,17 @@
+research_task:
+  description: >
+    Conduct in-depth research on {topic}.
+    Identify 3 major architectural breakthroughs or enterprise adoption trends.
+    Highlight the core value drivers and potential operational challenges for each.
+  expected_output: >
+    A bulleted briefing covering 3 key trends with concise analysis for each.
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the research findings on {topic}.
+    Produce an executive summary tailored for {target_audience}.
+    Include a high-level strategic takeaway and actionable next steps.
+  expected_output: >
+    A polished executive briefing report formatted in clean Markdown.
+  agent: writer
