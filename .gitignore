@@ -8,3 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# CrewAI local storage & databases
+.crewai_storage/
+.memory_store_lancedb/
+db/
